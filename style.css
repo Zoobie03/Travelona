@@ -1,0 +1,35 @@
+html,
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(221, 221, 221, 0.561);
+}
+
+a:hover {
+  color: orange;
+}
+
+/* CONTENEUR CAROUSEL */
+.conteneur-carousel-1 {
+  background-image: url("picture/maldives.jpg");
+  height: 500px;
+}
+
+.conteneur-carousel-2 {
+  background-image: url("picture/plage.jpg");
+  height: 500px;
+}
+
+.conteneur-carousel-3 {
+  background-image: url("picture/montain.jpg");
+  height: 500px;
+}
+
+.conteneur-carousel-4 {
+  background-image: url("picture/plage-2.jpg");
+  height: 500px;
+}
