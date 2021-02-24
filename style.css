@@ -60,15 +60,20 @@ a:hover {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
  }
 
- /* SVG */
- .svg {
+ /* ANIMATIONS */
+.svg {
   position: absolute;
   top: 400px;
   left: -200px;
   animation: 3s linear 0s forwards helloPlane;
 }
 
-/* ANIMATIONS */
+main {
+  opacity: 0;
+  animation: helloWebsite 1s 1s forwards;
+}
+
+/* KEYFRAMES */
 @keyframes helloPlane {
   from {
     left: -200px;
@@ -79,5 +84,14 @@ a:hover {
   }
   end {
     opacity: 0;
+  }
+}
+
+@keyframes helloWebsite {
+  from {
+   opacity: 0;
+  }
+  to {
+   opacity: 1;
   }
 }
