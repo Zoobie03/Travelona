@@ -73,6 +73,11 @@ main {
   animation: helloWebsite 1s 1s forwards;
 }
 
+section {
+  opacity: 0;
+  animation: helloWebsite 1s 3s forwards;
+}
+
 /* KEYFRAMES */
 @keyframes helloPlane {
   from {
