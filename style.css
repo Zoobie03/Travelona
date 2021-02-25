@@ -9,8 +9,14 @@ body {
   background-color: rgba(221, 221, 221, 0.561);
 }
 
+a {
+  text-transform: uppercase;
+  color: black;
+}
+
 a:hover {
-  color: orange;
+  color: #dc3546a6;
+  font-weight: bold;
 }
 
 /* CONTENEUR CAROUSEL */
