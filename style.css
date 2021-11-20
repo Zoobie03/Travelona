@@ -16,7 +16,7 @@ a {
 
 a:hover {
   color: #dc3546a6;
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 /* CONTENEUR CAROUSEL */
